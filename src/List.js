@@ -28,7 +28,7 @@ export default function List() {
               className="people"
               {...provided.droppableProps}
               ref={provided.innerRef}
-              style={{ listStyleType: "none" }}
+              style={{ listStyleType: "none", padding: "0" }}
             >
               {peopleList.map((el, index) => {
                 return (
