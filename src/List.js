@@ -39,7 +39,16 @@ export default function List() {
                         {...provided.draggableProps}
                         {...provided.dragHandleProps}
                       >
-                        <p>{el}</p>
+                        <div
+                          style={{
+                            border: "solid 2px blue",
+                            width: "30%",
+                            marginLeft: "35%",
+                            marginTop: "30px",
+                          }}
+                        >
+                          <p>{el}</p>
+                        </div>
                       </li>
                     )}
                   </Draggable>
